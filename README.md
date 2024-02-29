@@ -4,6 +4,10 @@
 
 This short guide is intended to help gamers who want to begin counter creation with vector graphics ([SVG]) in [Inkscape]. The guide will explain how to start a counter sheet, create a basic counter, and make a sheet, based on the old SPI game *The Destruction of Army Group Center* ([Boardgamegeek](https://boardgamegeek.com/boardgame/8755/destruction-army-group-center-soviet-summer-offens))
 
+The working files are available in the folder ```svgfiles``` for reference.
+
+This is published on github at https://github.com/jzedwards/creating-wargames-counters-with-inkscape 
+
 ## INTRODUCTION
 
 There are some good, simple online tools for counter creation, for example [snaphex], but this guide is intended to give you a basic starter in the free [Inkscape] app. [Inkscape] is the best value you can get, but it is not the most friendly of apps. If you have lots of cash, get Adobe [Illustrator] ; if you have some cash, consider [Affinity Designer]. It's worth reading a little of [SVG] basics (paths, fills, strokes, etc) before starting with [Inkscape]. The guide does not cover installing [Inkscape], [google] is your friend, or visit [this guide](https://wiki.inkscape.org/wiki/Installing_Inkscape).  
@@ -13,11 +17,11 @@ The guide will create a counter sheet page, add a counter, with text and symbols
 
 What layout do you want? What size counters? I usually work to US formats and in inches, as most of my work is old wargames. For me, this means a US letter sized page, in landscape, which is 8.5x11 inches.  
 My *target* sheet is *The Destruction of Army Group Center*
-![counter sheet](dacg-counters.jpg)
+![counter sheet](img\dacg-counters.jpg)
 
 First, open [Inkscape]. It will open with document defaults (for me, A4, portrait). On the menu, choose ```File \ Document Properties```  
 
-![document properties](00-document-properties.png)
+![document properties](img\00-document-properties.png)
 
 I have chosen US Letter, with inches (in) as the size format and the display units. Orientation is landscape.
 **Scale** is interesting...
@@ -34,12 +38,12 @@ This *user unit* can be used to work at different scales, but we will work to th
 ```Grids``` are imho really useful, as counter layout is all about precise positioning. We want a reference ```Grid``` on our page. For a 1/2" counter, I recommend we have a 1/16" grid (8 boxes), and we will define a *major* grid line every 1/2", or every 8 *minor* lines. 1/16=0.0625  
 We have also offset the grid by 1/4" (0.25) at the top corner
 
-![grid](01-grid.png)  
+![grid](img\01-grid.png)  
 
 So, this is our page, we can see the 1/2" (major) grid.
 We can reset the page to the screen with the key <kbd>5</kbd>, or zoom in with <kbd>+</kbd> and out with <kbd>-</kbd>
 
-![page](02-page.png)
+![page](img\02-page.png)
 
 ## CREATING A COUNTER
 
@@ -50,7 +54,7 @@ Click and drag and you will create a square.
 Make it grey by clicking a colour at the bottom. More about colours later - I have chosen ```silver```.  
 If you want to zoom into your new counter, you can press <kbd>3</kbd>.  
 
-![counter](03-counter.png)
+![counter](img\03-counter.png)
 
 ### FILL AND STROKE
 
@@ -60,32 +64,32 @@ If your box was created with an outline, select the *Stroke paint* tab below and
 **Fill and Stroke** is really important in [Inkscape] and [SVG]. Every Object (or ```Path```) is actually a series of lines joining points, so our counter is a square, starting at point 0,0 going to 48,0 (1/2" is 48px) then to 48,48, then 0,48 then closing at 0,0. As this box is a **closed** path, it has a ```Fill``` colour (silver). It can also have a ```Stroke``` width and colour, which would make an outline of the box. Below, I have made the stroke red and 3px.  
 As you will see with more complex objects, a rectangle is just a special type of ```Path``` - pretty much everything in Inkscape/SVG is a path.  
 
-![fill and stroke](04-fill-and-stroke.png)
+![fill and stroke](img\04-fill-and-stroke.png)
 
 ## TEXT
 What does a counter need? Information.
 A clasic wargame counter typically has a size (eg XX for Divison, III for regiment), a unit designation and parent designation, a type symbol (usually NATO symbology) and some factors reflecting combat and movement capabilities.
 
 Sample  
-![sample](05-counters.png)
+![sample](img\05-counters.png)
 
 Click the left hand ```Text``` to add a text box, we are going to add the **size** attribute, which is an **XX** division symbol. We will choose the *sans serif* font as a default (more below) at 6pt (point).  
 
-![size](06-size.png)
+![size](img\06-size.png)
 
 I tend to just copy a text object (select with the arrow on the left hand toolbar) and <kbd>CTRL C</kbd> ```Copy``` and <kbd>CTRL V</kbd> ```Paste```. Then position it.
 
 Then double click in the text to change it, enter ```6``` and rotate 90 degrees left (see the yellow arrow) with the icon on the top toolbar. 
 In the exanple, I have copied the text again and made it 10pt and changed to ```2-5```
 
-![rotate](07-unit-rotate.png)
+![rotate](img\07-unit-rotate.png)
 
 ## GROUPS
 
 Right now, the background and the text are all individual objects. You might want to ```Group``` them to more easily copy and paste. 
 Use the arrow icon, and drag around all of the items, then press <kbd>CTRL G</kbd>. They are now a group, and can be moved (or copied) together.  
 The image below shows the group and the ```XML Editor``` details of the objects on the right (more later)
-![group](08-group.png)
+![group](img\08-group.png)
 
 ## SYMBOLS
 
@@ -94,21 +98,21 @@ Firstly, we are going to create an infantry (INF) symbol.
 This will be based on a 3x2 box; so create a box like our grey one above, but this time it will not have a ```fill```, but will have a ```stroke```.  
 Note: it is not in the final position yet.  
 
-![box](09-symbol.png)
+![box](img\09-symbol.png)
 
 Click the ```Bezier Curves and Straight Lines``` pen icon to the left, and click in the bottom corner, then doublke click top corner for a straight line.  
 Hurray! You have a cavalry symbol.  
 
-![line](10-line.png)
+![line](img\10-line.png)
 
 Repeat for another line from the opposite corners and you have an infantry symbol!
 Pick the ```Arrow``` selection tool, and click and drag the symbol, then <kbd>CTRL G</kbd> to group. Note - it's in the wrong place!
 
-![inf](11-inf.png)
+![inf](img\11-inf.png)
 
 To move the symbol to the right spot will need to turnm **off** the snap to grid in the top left (see the white arrow)
 
-![centred](12-centred.png)
+![centred](img\12-centred.png)
 
 ## FONTS
 
@@ -123,7 +127,7 @@ PS Tom also has great vehicles and aircraft symbols, check them out.
 
 In the absence of a working NATO font, [simpubs] made one. It's available from <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" width="20">  **github** at https://github.com/jzedwards/jzfonts and is called ```JZNATO.otf```. Download and install it.
 
-![jznato](JZNATO-v11.JPG)
+![jznato](img\JZNATO-v11.JPG)
 
 ### CHANGING THE COUNTER FONTS
 
@@ -133,22 +137,22 @@ If you've installed Univers, you can change the counter to look more like the SP
 
 Below we have used Univers LT Std, and made the ```size``` a condensed font (and increased the factors to 12pt).
 
-![side by side](13-side-by-side.png)
+![side by side](img\13-side-by-side.png)
 
 #### SYMBOL FONTS
 
 So, having installed JZNATO, delete the INF symbol, and add a new text object. My default is *sans-serif* font - type a 1. 
 
-![symbol sans](14-symbol-sans.png)
+![symbol sans](img\14-symbol-sans.png)
 
 Now, change the font to *jznato**. As you can see above, the character ```1``` is the INF symbol in the font. Brilliant!  
 
-![symbol jznato](15-symbol-jznato.png)
+![symbol jznato](img\15-symbol-jznato.png)
 
 Clearly, it is too small, and in the wrong place. Select it and change the font size.
 Moving it to the image and comparing, 10pt is around the right size (note I have turned **off** snap).
 
-![symbol 10](16-symbol-10.png)
+![symbol 10](img\16-symbol-10.png)
 
 
 ## GUIDES
@@ -157,7 +161,7 @@ Moving it to the image and comparing, 10pt is around the right size (note I have
 
 A guide is created by dragging from the ruler onto the page. I am aligning it with the centre of the symbol. I might be inclined to 'push' the graphics together in the centre; the original was an early 70s print, when accuracy was poor and the space left for die cutting was significant. I tend to keep 1/16 all round free of text. You will see the text and symbols are aligned with this in mind.
 
-![guide](17-guide.png)
+![guide](img\17-guide.png)
 
 ## COLOURS
 
@@ -174,7 +178,7 @@ The original is not grey, but is [Feldgrau](https://en.wikipedia.org/wiki/Feldgr
 As above, SVG colours are useful. I often use *darkseagreen* for Germany, as it is, to me, quite close to a *feldgrau*.  
 One option available in [Inkscape] is the ```Eyedropper``` on the left toolbar. For illustration I created a small square and picked up the counter colour from the scan. As the interwebs say, #ymmv (*your mileage may vary*). make your choices and play with the colours.  
 
-![colours](18-colours.png)
+![colours](img\18-colours.png)
 
 ## LAYERS
 
@@ -182,32 +186,32 @@ Everything in [Inkscape] [SVG] is layered. Objects have a hierarchy, and sometim
 Objects can be moved up or down using the toolbar, or right click.  
 The toolbar actions are - move to top/move up/move down/move to bottom
 
-![order](19-toolbar.png)
+![order](img\19-toolbar.png)
 
 There is another ```Layer``` of complexity available; this actually puts a collection of objects onto a named Layer, which can be easily managed, selected, or locked (to stop editing) together. This is really helpful when we start to plan for e.g. backgrounds as we will do below.  
 
 Layers are available on the menu with ```Objects \ Layers and Objects...``` which will open a panel to the rigt, or you can click the ```Layers``` panel if it is available.  
 
-![layers](20-layers.png)
+![layers](img\20-layers.png)
 
 We have only one (default) layer called *Layer 1*. All of our objects are on this layer. The Layer tab also shows the hierarchy. If you have 'lost' an object, you can find it and move it up and down here. You will see we also have a group (```g15956```) which I have (confusingly) put all of our objects in. I will tidy this up in a moment, as we are adding a background.
 I'm going to create a new layer. I called it **scratch**.
 
-![add a layer](21-add-a-layer.png)
+![add a layer](img\21-add-a-layer.png)
 
 I moved my 'extras' to the scratch layer and locked it and made it invisible with the ```eye``` and the ```padlock``` to the right.
 
-![scratch](22-scratch.png)
+![scratch](img\22-scratch.png)
 
 Now I will create a new **background** layer for my counter colour. Rather than have a colour for each counter, it is handy/easy to have a nice background for counters in a solid colour.
 
-![background](23-background.png)
+![background](img\23-background.png)
 
 I have also made the counter 'box' transparent. This seems a bit odd, but it keeps the text exactly in the same place when I copy the counter, which makes it easier (honest). We now have a counter on one layer, a background, and a scratch layer.
 A bit of copy and paste, and editing the unit designations, and we have the basis of a counter sheet.
 Note I have used my favourite colour for the soviets, *goldenrod*.
 
-![sheet](24-sheet.png)
+![sheet](img\24-sheet.png)
 
 The walkthru of the building of the sheet will stop here. I'll update with a 'final' sheet when I complete it.  
 
@@ -221,7 +225,7 @@ Finally, if you are doing this for print'n'play (PnP), it can be useful to have 
 I usually do this for my die cutter, and have different layers for die cut, crop marks, and grid.
 The crop marks are 2 lines, at 90deg, in 50% grey, grouped together. I then copy and paste to build a 2x10 matrix for my 20 counters. The tutorial won't explain the detail. Try it out.
 
-![crop](26-crop.png)
+![crop](img\26-crop.png)
 
 ## XML EDITOR
 **WARNING** - deep tech incoming
@@ -229,7 +233,7 @@ The crop marks are 2 lines, at 90deg, in 50% grey, grouped together. I then copy
 A little extra. If you are interested in the tech, we referenced the ```XML Editor``` earlier. Under the hood, all SVG is actually like a web **HTML** *markup* document. It is *not* an image, but a (mathematical) description of an image, with boxes, lines, curves and colours all saved in a text file (an SVG file).  
 The XML editor shows what is 'under the covers'. Below is the XML Editor view for our sheet. It is opened up for one of the text fields on a counter, ```text8633-5``` (an automatic number generated with copy/paste)
 
-![xml](25-xml.png)
+![xml](img\25-xml.png)
 
 The actual SVG code looks like this (it's more complex than it needs to be to support Inkscape, which is why it has style). The key stuff is the X/Y position, the **rotate** and the number **7**.
 
