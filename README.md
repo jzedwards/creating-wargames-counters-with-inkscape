@@ -17,7 +17,7 @@ The guide will create a counter sheet page, add a counter, with text and symbols
 
 What layout do you want? What size counters? I usually work to US formats and in inches, as most of my work is old wargames. For me, this means a US letter sized page, in landscape, which is 8.5x11 inches.  
 My *target* sheet is *The Destruction of Army Group Center*
-![counter sheet](img\dacg-counters.jpg)
+![counter sheet](./img/dacg-counters.jpg)
 
 First, open [Inkscape]. It will open with document defaults (for me, A4, portrait). On the menu, choose ```File \ Document Properties```  
 
