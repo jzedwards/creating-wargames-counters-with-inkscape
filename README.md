@@ -38,7 +38,7 @@ This *user unit* can be used to work at different scales, but we will work to th
 ```Grids``` are imho really useful, as counter layout is all about precise positioning. We want a reference ```Grid``` on our page. For a 1/2" counter, I recommend we have a 1/16" grid (8 boxes), and we will define a *major* grid line every 1/2", or every 8 *minor* lines. 1/16=0.0625  
 We have also offset the grid by 1/4" (0.25) at the top corner
 
-![grid](img\01-grid.png)  
+![grid](./img\01-grid.png)  
 
 So, this is our page, we can see the 1/2" (major) grid.
 We can reset the page to the screen with the key <kbd>5</kbd>, or zoom in with <kbd>+</kbd> and out with <kbd>-</kbd>
