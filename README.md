@@ -21,7 +21,7 @@ My *target* sheet is *The Destruction of Army Group Center*
 
 First, open [Inkscape]. It will open with document defaults (for me, A4, portrait). On the menu, choose ```File \ Document Properties```  
 
-![document properties](img\00-document-properties.png)
+![document properties](./img/00-document-properties.png)
 
 I have chosen US Letter, with inches (in) as the size format and the display units. Orientation is landscape.
 **Scale** is interesting...
