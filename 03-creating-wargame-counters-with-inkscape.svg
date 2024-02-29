@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 279.4 215.9"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="03-creating-wargame-counters-with-inkscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     showgrid="true"
+     inkscape:zoom="5.8541668"
+     inkscape:cx="47.999999"
+     inkscape:cy="65.167259"
+     inkscape:window-width="1718"
+     inkscape:window-height="1360"
+     inkscape:window-x="1713"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       units="in"
+       spacingx="1.5875"
+       spacingy="1.5875"
+       empspacing="8"
+       originx="6.35"
+       originy="6.35" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g15956">
+      <rect
+         style="fill:#c0c0c0;stroke:none;stroke-width:0.79375;stroke-opacity:1;stroke-dasharray:none"
+         id="rect847"
+         width="12.7"
+         height="12.7"
+         x="6.3499999"
+         y="6.3499999" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:2.11667px;line-height:1.98437px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle;fill:#c0c0c0;stroke:none;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="12.7"
+         y="9.5249996"
+         id="text8633"><tspan
+           sodipodi:role="line"
+           id="tspan8631"
+           style="font-size:2.11667px;fill:#000000;stroke-width:0.79375;-inkscape-font-specification:'Roboto Bold';font-family:Roboto;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+           x="12.7"
+           y="9.5249996">XX</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;line-height:3.30728px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle;fill:#c0c0c0;stroke:none;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1"
+         x="12.7"
+         y="17.4625"
+         id="text8633-3"><tspan
+           sodipodi:role="line"
+           id="tspan8631-6"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#000000;stroke-width:0.79375"
+           x="12.7"
+           y="17.4625">2-5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1.98437px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle;fill:#c0c0c0;stroke:none;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1"
+         x="-11.645285"
+         y="9.4578228"
+         id="text8633-5"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan8631-5"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#000000;stroke-width:0.79375"
+           x="-11.645285"
+           y="9.4578228">6</tspan></text>
+    </g>
+  </g>
+</svg>
