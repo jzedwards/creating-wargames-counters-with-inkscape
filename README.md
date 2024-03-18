@@ -279,11 +279,25 @@ These are all image formats. Most images out there for general use are JPG, and 
 
 Scaleable Vector Graphics [SVG] is a type of image that can be scaled (bigger or smaller) with no loss in quality. In a vector file, the images are mathematical, and the image is generated based on the maths. Vector files were developed for web pages, but are widely used in images now. Most counters are a collection of shapes, text, numbers and symbols, which can be well defined in an SVG file.
 
-### B. Copyleft
+# Copyleft
 
-[simpubs] is free, and makes no income from the shared content. Where content is available publicly on a legitimate site (eg https://www.wargamevault.com), we do not republish this. Please go and buy it and support the creators. However, there are people charging for DVD/scans of SPI content. Please do not encourage them, especially if they are taking content from here and elsewhere and repackaging the work of others for personal profit.
+[simpubs] is free, and makes no income from the shared content. Where content is available publicly on a legitimate site (eg www.wargamevault.com), we do not republish this. Please go and buy it and support the creators. However, there are people charging for DVD/scans of SPI and [simpubs] content. Please do not encourage them, especially if they are taking content from here and elsewhere and repackaging the work of others for personal profit.
 
-Any original simpubs content (like this) is published under Creative Commons CC BY-SA-NC 4.0 international terms https://creativecommons.org/licenses/by-nc-sa/4.0. See our FAIR USE page for more info.
+Any original [simpubs] content is published under Creative Commons CC BY-SA-NC 4.0 international terms https://creativecommons.org/licenses/by-nc-sa/4.0.   
+
+See our [FAIR USE] page for more info.
+
+# About
+
+|Version|Control|
+|---|---|
+|Version|1.1|
+|Location|github tbc|
+|Created|29-FEB-2023|
+|Updated|18-MAR-2023|  
+|Author|jzedward|
+|web|https://www.simpubs.org|
+|email|mailto:viqhzset@duck.com|
 
 [snaphex]: https://snaphex.com/snap_counter
 [Inkscape]: https://www.inkscape.org
@@ -293,3 +307,4 @@ Any original simpubs content (like this) is published under Creative Commons CC 
 [simpubs]: https://www.simpubs.org
 [google]: https://www.google.com
 [Inkscape Counter Extension]: https://github.com/lifelike/countersheetsextension
+[FAIR USE]: https://nextcloud.simpubs.org/s/iJDdEfNCbyTateb  
